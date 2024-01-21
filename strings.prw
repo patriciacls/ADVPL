@@ -86,10 +86,17 @@ User Function Strings()
     //cria string com separador padrao
     cTexto1     := "João, Tiago, Fernanda, Patricia, Josué, Camila"
     aResp       := StrTokArr(cTexto1, ",")
-    aResp       := Separa(xTexto1, ",")
+    aResp       := Separa(cTexto1, ",")
 
     cTexto1     := "1.592.367,00"
     cResposta   := StrTran(StrTran(cTexto1, ".", ""), ",", ".")
 
+    //slice
+    cTexto1     := "Eu tenho coragem!"
+    cResposta   := SUBSTR( cTexto1, 1, 2)
+
+    //transforma qualquer valor em string formatada
+    cTexto1     := "00000000000923"
+    cResp       := Transform(cTexto1, "@R 999.999.999./999-99")
     
 Return
