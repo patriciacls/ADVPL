@@ -1,23 +1,9 @@
-#INCLUDE "PROTHEUS.CH"
+#INCLUDE "Protheus.ch"
+#INCLUDE "TOTVS.CH"
+
 User Function TPat()
-   U_SQLEx1()
+   U_xTstSX1()
 Return
-
-//-------------------------------------------------------------
-
-// User Function TPat()
-//    Local cNome := "Patricia Correia"
-//    Local dData := Ctod("08/29/2002")
-//    Local nSld  := 1500
-//    Local oPessoa := Pessoa():New(cNome,dData)
-
-//    Alert(oPessoa:cNomPerson)
-//    Alert(oPessoa:dNascimento)
-
-//    oPessoa:PagarConta(700)
-//    oPessoa:PagarConta(750)
-//    oPessoa:PagarConta(100)
-// Return
 
 //-------------------------------------------------------------
 // User Function Tpat()
